@@ -1,0 +1,56 @@
+[
+  {
+    "projectname": "Hacked Hogwarts student list",
+    "tools": ["HTML", "CSS", "JavaScript", "JSON", "Animations"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/Hacked-Hogwarts-Student-List",
+    "page": "https://di-pri.github.io/Hacked-Hogwarts-Student-List/",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/hogwarts.jpg"
+  },
+  {
+    "projectname": "Product configurator",
+    "tools": ["HTML", "CSS", "JavaScript", "SVG", "Animations"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/Sofa-configurator-project",
+    "page": "https://di-pri.github.io/Sofa-configurator-project/",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/configurator.jpg"
+  },
+  {
+    "projectname": "Running Dead",
+    "tools": ["HTML", "CSS", "JavaScript", "Animations"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/Hacked-Hogwarts-Student-List",
+    "page": "https://di-pri.github.io/Hacked-Hogwarts-Student-List/",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/running-dead.jpg"
+  },
+  {
+    "projectname": "Silfen",
+    "tools": ["HTML", "CSS", "JavaScript", "Database"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/silfen_website",
+    "page": "https://di-pri.github.io/silfen_website/index.html",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/silfen.jpg"
+  },
+  {
+    "projectname": "Ullo",
+    "tools": ["HTML", "CSS", "JavaScript", "Database"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/ullo_website",
+    "page": "https://di-pri.github.io/ullo_website/",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/ullo.jpg"
+  },
+  {
+    "projectname": "Dynamic webshop",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "repository": "https://github.com/Di-Pri/Webshop-dynamic",
+    "page": "https://di-pri.github.io/Webshop-dynamic/",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/online-shop.jpg"
+  }
+]

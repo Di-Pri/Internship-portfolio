@@ -5,12 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aspiring front-end developer, digital designer" />
-    <meta name="keywords" content="portfolio, javascript, developer, Copenhagen" />
+    <meta name="keywords" content="portfolio, javascript, developer, intern, Copenhagen, Diana Priediena" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="#" />
     <title>Portfolio</title>
   </head>
   <body>
+    <nav>
+      <a href="index.html">
+        <img src="#" alt="" />
+      </a>
+      <ul>
+        <li><a class="active" href="index.html">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <img src="assets/images/diana.png" alt="Photo of Diana" />
+        <div>
+          <p>Hi! I am Diana.</p>
+          <p>
+            The primary area of my interest is front-end development. I have experience building applications from scratch to the final
+            product. Some of them were made in collaboration with external companies.
+          </p>
+          <p>Currently, I am in my 3rd semester of the Multimedia Design course at KEA, where I attend a front-end design elective.</p>
+        </div>
+      </section>
+      <section id="skillset">
+        <div>
+          <h1>Skillset</h1>
+          <ul>
+            <li>HTML5 | CSS3 | JavaScript | JSON</li>
+            <li>Git | GitHub</li>
+            <li>SEO (Search Engine Optimization) | Lighthouse</li>
+            <li>Adobe Creative Cloud (Illustrator, Photoshop, Premiere Pro, InDesign, XD)</li>
+          </ul>
+        </div>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="parentProjects"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2021 Diana Priediena</p>
+    </footer>
+
+    <!-- svg -->
+    <svg class="wave" viewBox="0 0 1200 650">
+      <path d="M 0 80 C 200 30, 400 30, 600 80, S1000 130, 1200 80 L1200 650 L0 650" fill="#e9f4f8" />
+    </svg>
+
+    <!-- template -->
+    <template id="childProjects">
+      <article>
+        <div class="projectImage"></div>
+        <div class="projectInfo">
+          <h2></h2>
+          <h5></h5>
+          <p></p>
+          <div class="projectIcons">
+            <a class="learnMore tooltip" href="#">
+              <span class="tooltipText">Read more</span>
+              <img src="assets/icons/more-icon.svg" alt="Read more icon" />
+            </a>
+            <a class="page tooltip" href="#" target="_blank">
+              <span class="tooltipText">Go to website</span>
+              <img src="assets/icons/link-icon.svg" alt="Arrow icon" />
+            </a>
+            <a class="repository tooltip" href="#" target="_blank">
+              <span class="tooltipText">Check repository</span>
+              <img src="assets/icons/github-icon.svg" alt="GitHub icon" />
+            </a>
+            <a class="watchVideo tooltip" href="#">
+              <span class="tooltipText">Watch video</span>
+              <img src="assets/icons/video-icon.svg" alt="Video icon" />
+            </a>
+          </div>
+        </div>
+      </article>
+    </template>
+
     <script src="script.js"></script>
   </body>
 </html>
