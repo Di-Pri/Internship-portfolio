@@ -6,32 +6,12 @@
   --blue-background: #e9f4f8;
 }
 
-/* svg style */
 .wave {
   position: absolute;
   top: 500px;
   left: 0;
   z-index: -1;
 }
-
-svg path {
-  animation: pathAnim 9s ease-in-out infinite;
-}
-
-@keyframes pathAnim {
-  0% {
-    d: path("M 0 80 C 200 30, 400 30, 600 80, S1000 130, 1200 80 L1200 650 L0 650");
-  }
-
-  50% {
-    d: path("M 0 100 C 220 10, 440 10, 700 100, S1140 110, 1200 100 L1200 650 L0 650");
-  }
-  100% {
-    d: path("M 0 80 C 200 30, 400 30, 600 80, S1000 130, 1200 80 L1200 650 L0 650");
-  }
-}
-
-/* svg style */
 
 body {
   margin: 0;
