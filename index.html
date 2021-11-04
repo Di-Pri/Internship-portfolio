@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aspiring front-end developer, digital designer" />
     <meta name="keywords" content="portfolio, javascript, developer, intern, Copenhagen, Diana Priediena" />
+    <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="#" />
     <title>Portfolio</title>
@@ -15,11 +16,17 @@
       <a href="index.html">
         <img src="#" alt="" />
       </a>
-      <ul>
-        <li><a class="active" href="index.html">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <div class="burgerButton">
+        <div class="burger"></div>
+      </div>
+      <div id="menuSlideOut" class="slideOut hidden">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <main>
@@ -38,9 +45,11 @@
         <div>
           <h1>Skillset</h1>
           <ul>
-            <li>HTML5 | CSS3 | JavaScript ES6 | JSON</li>
+            <li>HTML5 | CSS3 | JavaScript ES6</li>
+            <li>REST ARI | NoSQL | JSON</li>
+            <li>Sass | Vite</li>
             <li>Git | GitHub</li>
-            <li>SEO (Search Engine Optimization) | Lighthouse</li>
+            <!-- <li>SEO (Search Engine Optimization) | Lighthouse</li> -->
             <li>Adobe Creative Cloud (Illustrator, Photoshop, Premiere Pro, InDesign, XD)</li>
           </ul>
         </div>
@@ -50,19 +59,21 @@
         <div class="parentProjects"></div>
       </section>
     </main>
+
     <footer>
       <p>&copy; 2021 Diana Priediena</p>
     </footer>
 
     <!-- svg -->
-    <svg class="wave" viewBox="0 0 1200 650">
-      <path d="M 0 80 C 200 30, 400 30, 600 80 S1000 130, 1200 80 L1200 650 L0 650" fill="#e9f4f8">
+
+    <svg class="wave" width="100vw" height="110vh" viewBox="0 0 1200 650" preserveAspectRatio="none">
+      <path d="" fill="#e9f4f8">
         <animate
           attributeName="d"
-          values="M 0 80 C 200 30, 400 30, 600 80 S1000 130, 1200 80 L1200 650 L0 650; 
-          M 0 100 C 220 10, 440 10, 700 100 S1140 110, 1200 100 L1200 650 L0 650; 
-          M 0 80 C 200 30, 400 30, 600 80 S1000 130, 1200 80 L1200 650 L0 650"
-          dur="9s"
+          values="M 0 70 C 200 35, 400 35, 600 70 S1000 105, 1200 70 L1200 650 L0 650; 
+          M 0 90 C 200 15, 400 15, 600 70 S1000 125, 1200 50 L1200 650 L0 650; 
+          M 0 70 C 200 35, 400 35, 600 70 S1000 105, 1200 70 L1200 650 L0 650"
+          dur="8s"
           repeatCount="indefinite"
           calcMode="spline"
           keyTimes="0; 0.5; 1"
@@ -72,6 +83,7 @@
     </svg>
 
     <!-- template -->
+
     <template id="childProjects">
       <article>
         <div class="projectImage"></div>
@@ -101,6 +113,6 @@
       </article>
     </template>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>

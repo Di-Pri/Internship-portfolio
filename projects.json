@@ -1,7 +1,7 @@
 [
   {
     "projectname": "Hacked Hogwarts student list",
-    "tools": ["HTML", "CSS", "JavaScript", "JSON", "Animations"],
+    "tools": ["HTML", "CSS", "JavaScript", "REST API", "Animations"],
     "description": [
       "The website displays a list of students where you can search, sort, filter, expel students, add them to the inquisitorial squad, or appoint a prefect. ",
       "By clicking the “Hack the system” logo in the upper right corner of the page, you mess students’ blood status, enroll yourself in Hogwarts, and remove all students from the squad, if any."
@@ -25,7 +25,7 @@
   },
   {
     "projectname": "Running Dead",
-    "tools": ["HTML", "CSS", "JavaScript", "SVG", "Animations"],
+    "tools": ["HTML", "CSS", "JavaScript", "Animations"],
     "description": [
       "An animated clicker game with good objects that give you points and bad objects that take your lives.",
       "The idea is to collect a certain amount of points before the time runs out and have at least one life left at the end of the game."
@@ -37,10 +37,10 @@
   },
   {
     "projectname": "Silfen",
-    "tools": ["HTML", "CSS", "JavaScript", "Database"],
+    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
-      "The e-commerse website for the Silfen start-up is a product of a group project. The main focus was to redesign the company’s current website, by making it more accessible and easier to navigate.",
-      "I was responsible for building the landing, collections, and sustainability pages, that had to meet the criteria to be colorful, playful, and conscious."
+      "The e-commerce website for the Silfen start-up is a product of a group work. The main focus was on redesigning the company’s existing website to make it more accessible and easier to navigate.",
+      "I was responsible for building the landing, collections, and sustainability pages, that had to meet the client's wishes to be colorful and playful."
     ],
     "repository": "https://github.com/Di-Pri/silfen_website",
     "page": "https://di-pri.github.io/silfen_website/index.html",
@@ -49,9 +49,9 @@
   },
   {
     "projectname": "Ullo",
-    "tools": ["HTML", "CSS", "JavaScript", "Database"],
+    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
-      "The e-commerse website for the Ullo start-up is a product of a group project where the main focus was to create a digital identity that could reach a younger audience. ",
+      "The e-commerce website for the Ullo start-up is a product of a group work. The main focus was to create a digital identity that could reach a younger audience. ",
       "Here I would like to showcase the landing page that I built. Motion graphics and video editing were done in Adobe Premiere Pro."
     ],
     "repository": "https://github.com/Di-Pri/ullo_website",
@@ -61,9 +61,9 @@
   },
   {
     "projectname": "Dynamic webshop",
-    "tools": ["HTML", "CSS", "JavaScript", "JSON"],
+    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
-      "E-commerse web application which fetches data from database and displays products dynamically.",
+      "The e-commerce web application fetches data from a database and displays products dynamically.",
       "By choosing a preferred category you will be redirected to a list of products from that category. By selecting a product you will see detailed information about the product."
     ],
     "repository": "https://github.com/Di-Pri/Webshop-dynamic",

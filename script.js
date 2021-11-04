@@ -1,8 +1,11 @@
 "use strict";
+import { openMenu } from "./menu.js";
+
 window.addEventListener("DOMContentLoaded", start);
 
 function start() {
   loadJSON();
+  openMenu();
 }
 
 async function loadJSON() {

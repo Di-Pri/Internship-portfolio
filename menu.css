@@ -1,0 +1,85 @@
+.burgerButton {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  right: 0;
+  margin-right: 2rem;
+  z-index: 10;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3.5px;
+  background: #192732;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger::before {
+  transform: translateY(-6px);
+}
+
+.burger::after {
+  transform: translateY(6px);
+}
+
+.burgerButton.open .burger::before {
+  transform: rotate(45deg);
+  background: var(--menu-text-color);
+}
+
+.burgerButton.open .burger::after {
+  transform: rotate(-45deg);
+  background: var(--menu-text-color);
+}
+
+.slideOut {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  z-index: 5;
+}
+
+.slideOut ul {
+  margin: 0;
+  padding: 0;
+}
+
+.slideOut li {
+  width: 100vw;
+  height: 25vh;
+  line-height: 25vh;
+  background-color: #17242d;
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.slideOut li:hover {
+  background-color: #4f5c65;
+  transition: all 0.1s linear;
+}
+
+.slideOut a {
+  color: var(--menu-text-color);
+  font-size: 50px;
+  font-weight: 500;
+  user-select: none;
+}
+
+@media screen and (max-width: 800px) {
+  .burgerButton {
+    margin-right: 1rem;
+    margin-top: -1rem;
+  }
+
+  .slideOut a {
+    font-size: 35px;
+  }
+}

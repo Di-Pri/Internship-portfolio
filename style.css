@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;800&display=swap");
 
 :root {
-  --text-color: #3a454d;
-  --font-family: "Nanum Myeongjo", serif;
+  --main-text-color: #3a454d;
+  --menu-text-color: #a5abae;
+  --font-family: "Rubik", sans-serif;
   --blue-background: #e9f4f8;
 }
 
@@ -11,62 +12,58 @@
   top: 500px;
   left: 0;
   z-index: -1;
+  max-width: 100%;
 }
 
 body {
   margin: 0;
-  color: var(--text-color);
+  color: var(--main-text-color);
   font-family: var(--font-family);
   font-size: 19px;
-}
-
-.active {
-  color: pink;
-}
-
-nav {
-  display: flex;
-  width: 95%;
-  padding: 1rem;
-  justify-content: space-between;
-}
-
-nav img {
-  width: 80px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--main-text-color);
 }
 
 #about {
   display: flex;
-  gap: 6rem;
+  gap: 8rem;
   align-items: center;
+  padding: 0 12vw;
+  margin-top: 5rem;
 }
 
 #about img {
   width: 370px;
   z-index: -2;
   transform: rotate(-2deg);
+  user-select: none;
 }
 
 h1 {
   font-size: 100px;
   font-weight: 800;
-  margin-top: 13rem;
 }
 
 h2 {
   margin-top: 0;
-  font-weight: 900;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#projects {
+  margin-top: 8rem;
+  padding: 0 12vw;
+}
+
+#projects p {
+  font-size: 18px;
 }
 
 #skillset ul {
@@ -75,21 +72,20 @@ h2 {
 }
 
 #skillset {
-  background-color: var(--blue-background);
-  padding-bottom: 2rem;
+  margin-top: 13rem;
+  padding: 0 12vw;
+  padding-bottom: 5rem;
+  background: var(--blue-background);
 }
 
-#about,
-#skillset div,
 #projects {
-  margin-left: 13vw;
-  margin-right: 13vw;
+  padding: 0 12vw;
 }
 
 #projects article {
   display: flex;
-  gap: 5rem;
-  margin-bottom: 15rem;
+  gap: 4rem;
+  margin-bottom: 12vw;
 }
 
 #projects article:nth-of-type(odd) {
@@ -97,20 +93,22 @@ h2 {
 }
 
 .projectImage img {
-  width: 40vw;
-  /* border: 2px solid #ffffff; */
+  width: 610px;
   padding: 2px;
   box-shadow: 0px 0px 15px 1px #aab2bd;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.projectIcons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .projectIcons img {
   width: 25px;
-  margin-right: 1rem;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
+  height: 25px;
 }
 
 .tooltipText {
@@ -132,20 +130,35 @@ h2 {
 footer p {
   text-align: center;
   font-size: 16px;
-  color: #6d7a83;
+  color: var(--menu-text-color);
 }
 
-@media screen and (max-width: 1200px) {
-  #about {
-    margin-left: 7vw;
-    margin-right: 7vw;
-  }
+.hidden {
+  display: none;
+}
 
+/* Remove scrollbar starts */
+
+html {
+  scrollbar-width: none; /* firefox */
+}
+
+body {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Remove scrollbar ends */
+
+@media screen and (max-width: 1450px) {
   #projects article {
     flex-direction: column-reverse;
-    width: 74vw;
     gap: 3rem;
-    margin-bottom: 7rem;
   }
 
   #projects article:nth-of-type(odd) {
@@ -153,80 +166,98 @@ footer p {
   }
 
   .projectImage img {
-    width: 74vw;
+    width: 100%;
+  }
+
+  .projectIcons {
+    margin-top: 2rem;
+  }
+
+  #projects article {
+    gap: 0.7rem;
+    margin-bottom: 6rem;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
+  .wave {
+    top: 400px;
+  }
+
   #about {
     flex-direction: column;
     gap: 0;
   }
 
   #about div {
-    background-color: var(--blue-background);
-    margin-left: -7vw;
-    margin-right: -7vw;
-  }
-
-  #about p,
-  #skillset div,
-  #projects {
-    margin-left: 5vw;
-    margin-right: 5vw;
-  }
-
-  .projectImage img,
-  #projects article {
-    width: 90vw;
-  }
-
-  .wave {
-    top: 470px;
+    font-size: 18px;
+    margin-top: -2rem;
   }
 
   #skillset {
-    background: none;
-    padding-bottom: 0;
+    margin-top: 6rem;
     font-size: 18px;
+    padding-bottom: 2rem;
+  }
+
+  #skillset ul {
+    line-height: 2.5rem;
+    padding-left: 1.5rem;
   }
 
   h1 {
     font-size: 60px;
-    margin-top: 7rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .wave {
-    top: 440px;
   }
 
-  #about div {
-    padding-bottom: 2rem;
-  }
-
-  h1 {
-    margin-top: 3rem;
+  #projects {
+    margin-top: 5rem;
   }
 
   #projects article {
     margin-bottom: 4rem;
   }
+}
+
+@media screen and (max-width: 600px) {
+  #projects,
+  #about,
+  #skillset {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #projects article {
+    margin-bottom: 3rem;
+  }
 
   #about img {
-    width: 70vw;
+    width: 230px;
   }
-}
 
-@media screen and (max-width: 420px) {
   .wave {
-    top: 420px;
+    top: 240px;
+    height: 95vh;
   }
-}
 
-@media screen and (max-width: 400px) {
-  .wave {
-    top: 350px;
+  #about div {
+    margin-top: 0;
+  }
+
+  #projects,
+  #about,
+  #skillset {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }
