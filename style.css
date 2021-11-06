@@ -4,8 +4,33 @@
   --main-text-color: #3a454d;
   --menu-text-color: #a5abae;
   --font-family: "Rubik", sans-serif;
-  --blue-background: #e9f4f8;
+  --blue-background: #c2e0e5;
 }
+
+/* scrollbar Firefox */
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--menu-text-color) #ebebeb;
+}
+
+/* scrollbar rest browsers */
+
+html::-webkit-scrollbar {
+  width: 9px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--menu-text-color);
+  border: 1px solid var(--menu-text-color);
+  border-radius: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+}
+
+/* scrollbar ends */
 
 .wave {
   position: absolute;
@@ -33,7 +58,7 @@ a {
   gap: 8rem;
   align-items: center;
   padding: 0 12vw;
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 
 #about img {
@@ -50,6 +75,11 @@ h1 {
 
 h2 {
   margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  font-weight: 500;
 }
 
 h5 {
@@ -111,6 +141,21 @@ h5 {
   height: 25px;
 }
 
+.contactIcons {
+  display: flex;
+  gap: 2rem;
+}
+
+.contactIcons img {
+  width: 60px;
+  margin-bottom: 3rem;
+}
+
+.contactIcons img:hover {
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
 .tooltipText {
   visibility: hidden;
   width: 110px;
@@ -127,33 +172,25 @@ h5 {
   visibility: visible;
 }
 
+#contact {
+  padding: 0 12vw;
+  padding-top: 1rem;
+  background-color: #e5dceb;
+}
+
 footer p {
   text-align: center;
   font-size: 16px;
-  color: var(--menu-text-color);
+  padding: 1.3rem;
+  padding-top: 8rem;
+  background-color: #e5dceb;
+  color: #ffffff;
+  margin: 0;
 }
 
 .hidden {
   display: none;
 }
-
-/* Remove scrollbar starts */
-
-html {
-  scrollbar-width: none; /* firefox */
-}
-
-body {
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-}
-
-body::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-/* Remove scrollbar ends */
 
 @media screen and (max-width: 1450px) {
   #projects article {
@@ -177,6 +214,10 @@ body::-webkit-scrollbar {
     gap: 0.7rem;
     margin-bottom: 6rem;
   }
+
+  #about {
+    padding-top: 7rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -187,6 +228,7 @@ body::-webkit-scrollbar {
   #about {
     flex-direction: column;
     gap: 0;
+    padding-top: 5rem;
   }
 
   #about div {
@@ -216,15 +258,34 @@ body::-webkit-scrollbar {
   #projects article {
     margin-bottom: 4rem;
   }
+
+  footer p {
+    padding-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #projects,
-  #about,
   #skillset {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 3rem;
+  }
+
+  #about,
+  #contact {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .contactIcons img {
+    margin-bottom: 2rem;
+    width: 45px;
   }
 }
 
@@ -248,7 +309,8 @@ body::-webkit-scrollbar {
 
   #projects,
   #about,
-  #skillset {
+  #skillset,
+  #contact {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -259,5 +321,9 @@ body::-webkit-scrollbar {
 
   h2 {
     font-size: 25px;
+  }
+
+  #contact p {
+    font-size: 18px;
   }
 }

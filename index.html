@@ -8,23 +8,20 @@
     <meta name="keywords" content="portfolio, javascript, developer, intern, Copenhagen, Diana Priediena" />
     <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="#" />
+    <link rel="icon" href="assets/icons/mylogo.svg" />
     <title>Portfolio</title>
   </head>
   <body>
     <nav>
-      <a href="index.html">
-        <img src="#" alt="" />
-      </a>
       <div class="burgerButton">
         <div class="burger"></div>
       </div>
       <div id="menuSlideOut" class="slideOut hidden">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">Home</a></li>
+          <li><a href="#skillsetMenu">Skills</a></li>
+          <li><a href="#projectsMenu">Projects</a></li>
+          <li><a href="#contactMenu">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -41,6 +38,7 @@
           <p>Currently, I am in my 3rd semester of the Multimedia Design course at KEA, where I attend a front-end design elective.</p>
         </div>
       </section>
+      <div id="skillsetMenu"></div>
       <section id="skillset">
         <div>
           <h1>Skillset</h1>
@@ -54,20 +52,37 @@
           </ul>
         </div>
       </section>
+      <div id="projectsMenu"></div>
       <section id="projects">
         <h1>Projects</h1>
         <div class="parentProjects"></div>
       </section>
+      <div id="contactMenu"></div>
+      <section id="contact">
+        <h1>Contact</h1>
+        <h3>Find me here:</h3>
+        <div class="contactIcons">
+          <a href="https://www.linkedin.com/in/diana-priediena/" target="_blank">
+            <img src="assets/icons/linkedin.svg" alt="Linkedin icon" />
+          </a>
+          <a href="https://github.com/Di-Pri?tab=repositories" target="_blank">
+            <img src="assets/icons/github.svg" alt="GitHub icon" />
+          </a>
+        </div>
+        <h3>Or write me an email at:</h3>
+        <p>dian6210@stud.kea.dk</p>
+        <br />
+      </section>
     </main>
 
     <footer>
-      <p>&copy; 2021 Diana Priediena</p>
+      <p>Designed and built by Diana Priediena with HTML5, CSS3, JavaScript in 2021.</p>
     </footer>
 
     <!-- svg -->
 
     <svg class="wave" width="100vw" height="110vh" viewBox="0 0 1200 650" preserveAspectRatio="none">
-      <path d="" fill="#e9f4f8">
+      <path d="" fill="#c2e0e5">
         <animate
           attributeName="d"
           values="M 0 70 C 200 35, 400 35, 600 70 S1000 105, 1200 70 L1200 650 L0 650; 
@@ -82,7 +97,7 @@
       </path>
     </svg>
 
-    <!-- template -->
+    <!-- project template -->
 
     <template id="childProjects">
       <article>

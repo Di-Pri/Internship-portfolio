@@ -1,5 +1,5 @@
 "use strict";
-import { openMenu } from "./menu.js";
+import { openMenu } from "./modules/menu.js";
 
 window.addEventListener("DOMContentLoaded", start);
 
@@ -15,7 +15,6 @@ async function loadJSON() {
 }
 
 function displayProjects(project) {
-  console.log("project", project);
   const clone = document.querySelector("#childProjects").content.cloneNode(true);
 
   const thumbnail = document.createElement("img");
