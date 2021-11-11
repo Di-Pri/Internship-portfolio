@@ -111,10 +111,6 @@ h5 {
   background: var(--blue-background);
 }
 
-#projects {
-  padding: 0 12vw;
-}
-
 #projects article {
   display: flex;
   gap: 4rem;
