@@ -2,10 +2,10 @@
   <g id="Layer_2" data-name="Layer 2">
     <g id="Layer_3" data-name="Layer 3">
       <g>
-        <path d="M98,.5A97.5,97.5,0,1,0,195.5,98,97.5,97.5,0,0,0,98,.5Zm0,177A79.5,79.5,0,1,1,177.5,98,79.5,79.5,0,0,1,98,177.5Z" fill="#6e8e9b" stroke="#6e8e9b" stroke-miterlimit="10"/>
-        <path d="M49.66,85.5C35.73,91.73,37,119.1,58.08,112.8S68.46,77.1,49.66,85.5Z" fill="#6e8e9b" stroke="#6e8e9b" stroke-miterlimit="10"/>
-        <path d="M92.59,85.63C78.66,91.86,80,119.23,101,112.93S111.39,77.23,92.59,85.63Z" fill="#6e8e9b" stroke="#6e8e9b" stroke-miterlimit="10"/>
-        <path d="M134.66,85.5c-13.93,6.23-12.63,33.6,8.42,27.3S153.46,77.1,134.66,85.5Z" fill="#6e8e9b" stroke="#6e8e9b" stroke-miterlimit="10"/>
+        <path d="M98,.5A97.5,97.5,0,1,0,195.5,98,97.5,97.5,0,0,0,98,.5Zm0,177A79.5,79.5,0,1,1,177.5,98,79.5,79.5,0,0,1,98,177.5Z" fill="#7CA3B6" stroke="#7CA3B6" stroke-miterlimit="10"/>
+        <path d="M49.66,85.5C35.73,91.73,37,119.1,58.08,112.8S68.46,77.1,49.66,85.5Z" fill="#7CA3B6" stroke="#7CA3B6" stroke-miterlimit="10"/>
+        <path d="M92.59,85.63C78.66,91.86,80,119.23,101,112.93S111.39,77.23,92.59,85.63Z" fill="#7CA3B6" stroke="#7CA3B6" stroke-miterlimit="10"/>
+        <path d="M134.66,85.5c-13.93,6.23-12.63,33.6,8.42,27.3S153.46,77.1,134.66,85.5Z" fill="#7CA3B6" stroke="#7CA3B6" stroke-miterlimit="10"/>
       </g>
     </g>
   </g>

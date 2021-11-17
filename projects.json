@@ -12,6 +12,30 @@
     "image": "assets/images/hogwarts.jpg"
   },
   {
+    "projectname": "Silfen webshop",
+    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
+    "description": [
+      "The e-commerce website for the Silfen start-up is a product of a group work. The main focus was on redesigning the company’s existing website to make it more accessible and easier to navigate.",
+      "I was responsible for building the landing, collections, and sustainability pages, that had to meet the client's wishes to be colorful and playful."
+    ],
+    "repository": "https://github.com/Di-Pri/silfen_website",
+    "page": "https://di-pri.github.io/silfen_website/index.html",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/silfen.jpg"
+  },
+  {
+    "projectname": "Ezone sign-up form",
+    "tools": ["HTML", "SASS", "JavaScript-modules", "REST API", "Restdb"],
+    "description": [
+      "A sign-up form on the Ezone platform, an app that helps gamers improve their performance through advice and guidance related to training and lifestyle.",
+      "After answering questions in the form, users will receive content tailored to their personal needs."
+    ],
+    "repository": "https://github.com/Di-Pri/Ezone-form",
+    "page": "http://dianapriediena.com/ezone/dist/index.html",
+    "learnmore": "https://github.com/Di-Pri",
+    "image": "assets/images/ezone1.jpg"
+  },
+  {
     "projectname": "Product configurator",
     "tools": ["HTML", "CSS", "JavaScript", "SVG", "Animations"],
     "description": [
@@ -24,31 +48,7 @@
     "image": "assets/images/configurator.jpg"
   },
   {
-    "projectname": "Running Dead",
-    "tools": ["HTML", "CSS", "JavaScript", "Animations"],
-    "description": [
-      "An animated clicker game with good objects that give you points and bad objects that take your lives.",
-      "The idea is to collect a certain amount of points before the time runs out and have at least one life left at the end of the game."
-    ],
-    "repository": "https://github.com/Di-Pri/Hacked-Hogwarts-Student-List",
-    "page": "https://di-pri.github.io/The-Running-Dead/",
-    "learnmore": "https://github.com/Di-Pri",
-    "image": "assets/images/running-dead.jpg"
-  },
-  {
-    "projectname": "Silfen",
-    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
-    "description": [
-      "The e-commerce website for the Silfen start-up is a product of a group work. The main focus was on redesigning the company’s existing website to make it more accessible and easier to navigate.",
-      "I was responsible for building the landing, collections, and sustainability pages, that had to meet the client's wishes to be colorful and playful."
-    ],
-    "repository": "https://github.com/Di-Pri/silfen_website",
-    "page": "https://di-pri.github.io/silfen_website/index.html",
-    "learnmore": "https://github.com/Di-Pri",
-    "image": "assets/images/silfen.jpg"
-  },
-  {
-    "projectname": "Ullo",
+    "projectname": "Ullo webshop",
     "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
       "The e-commerce website for the Ullo start-up is a product of a group work. The main focus was to create a digital identity that could reach a younger audience. ",
@@ -60,15 +60,15 @@
     "image": "assets/images/ullo.jpg"
   },
   {
-    "projectname": "Dynamic webshop",
-    "tools": ["HTML", "CSS", "JavaScript", "REST API"],
+    "projectname": "Running Dead",
+    "tools": ["HTML", "CSS", "JavaScript", "Animations"],
     "description": [
-      "The e-commerce web application fetches data from a database and displays products dynamically.",
-      "By choosing a preferred category you will be redirected to a list of products from that category. By selecting a product you will see detailed information about the product."
+      "An animated clicker game with good objects that give you points and bad objects that take your lives.",
+      "The idea is to collect a certain amount of points before the time runs out and have at least one life left at the end of the game."
     ],
-    "repository": "https://github.com/Di-Pri/Webshop-dynamic",
-    "page": "https://di-pri.github.io/Webshop-dynamic/",
+    "repository": "https://github.com/Di-Pri/The-Running-Dead",
+    "page": "https://di-pri.github.io/The-Running-Dead/",
     "learnmore": "https://github.com/Di-Pri",
-    "image": "assets/images/online-shop.jpg"
+    "image": "assets/images/running-dead.jpg"
   }
 ]
