@@ -6,38 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aspiring front-end developer, digital designer" />
     <meta name="keywords" content="portfolio, javascript, developer, intern, Copenhagen, Diana Priediena" />
+    <meta name="title" property="og:title" content="Portfolio" />
+    <meta property="og:type" content="Website" />
+    <meta name="image" property="og:image" content="http://dianapriediena.com/portfolio/assets/images/portfolio-landing.jpg" />
+    <meta name="description" property="og:description" content="Portfolio" />
+    <meta name="author" content="Diana Priediena" />
     <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/icons/mylogo.svg" />
     <title>Portfolio</title>
   </head>
   <body>
-    <nav>
-      <div class="burgerButton">
-        <div class="burger"></div>
-      </div>
-      <div id="menuSlideOut" class="slideOut hidden">
-        <ul>
-          <li><a href="#about">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav>
+        <div class="burgerButton">
+          <div class="burger"></div>
+        </div>
+        <div id="menuSlideOut" class="slideOut hidden">
+          <ul>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <section id="about">
-        <img src="assets/images/diana.png" alt="Photo of Diana" />
+        <picture>
+          <source type="image/webp" srcset="assets/images/diana.webp" />
+          <source type="image/png" srcset="assets/images/diana.png" />
+          <img src="assets/images/diana.png" alt="Photo of Diana" />
+        </picture>
         <div>
           <p>Hi! I am Diana.</p>
           <p>
             The primary area of my interest is front-end development. I have experience building applications from scratch to the final
             product. Some of them were made in collaboration with start-ups.
           </p>
+          <p>Currently, I am taking my 3rd semester of a Multimedia Design course at KEA, specializing in front-end development.</p>
           <p>
-            Currently, I am in my 3rd semester of the Multimedia Design course at the Copenhagen School of Design and Technology, where I
-            attend a front-end design elective.
+            I'm looking for a 10-week internship starting February 1st, 2022, to experience the real world outside of school. Scroll down to
+            see my work.
           </p>
         </div>
       </section>
@@ -50,7 +62,6 @@
             <li>REST API | NoSQL | JSON</li>
             <li>Sass | Vite</li>
             <li>Git | GitHub</li>
-            <!-- <li>SEO (Search Engine Optimization) | Lighthouse</li> -->
             <li>Adobe Creative Cloud (Illustrator, Photoshop, Premiere Pro, InDesign, XD)</li>
           </ul>
         </div>
@@ -62,29 +73,28 @@
       </section>
       <section id="contact">
         <h1>Contact</h1>
-        <h3>Find me here:</h3>
+        <h2>Find me here:</h2>
         <div class="contactIcons">
-          <a href="https://www.linkedin.com/in/diana-priediena/" target="_blank">
+          <a href="https://www.linkedin.com/in/diana-priediena/" target="_blank" rel="noopener noreferrer">
             <img src="assets/icons/linkedin.svg" alt="Linkedin icon" />
           </a>
-          <a href="https://github.com/Di-Pri" target="_blank">
+          <a href="https://github.com/Di-Pri" target="_blank" rel="noopener noreferrer">
             <img src="assets/icons/github.svg" alt="GitHub icon" />
           </a>
         </div>
-        <h3>Or write me an email at:</h3>
+        <h2>Or write me an email at:</h2>
         <p>dianapriediena@mail.com</p>
-        <br />
       </section>
     </main>
 
     <footer>
-      <p>Designed and built by Diana Priediena with HTML5, CSS3, JavaScript in 2021.</p>
+      <p>Built by Diana Priediena with HTML5, CSS3, JavaScript in 2021.</p>
     </footer>
 
     <!-- svg -->
 
     <svg class="wave" width="100vw" height="110vh" viewBox="0 0 1200 650" preserveAspectRatio="none">
-      <path d="" fill="#c2e0e5">
+      <path d="" fill="#cdedf1">
         <animate
           attributeName="d"
           values="M 0 70 C 200 35, 400 35, 600 70 S1000 105, 1200 70 L1200 650 L0 650; 
@@ -106,25 +116,17 @@
         <div class="projectImage"></div>
         <div class="projectInfo">
           <h2></h2>
-          <h5></h5>
+          <h3></h3>
           <p></p>
           <div class="projectIcons">
-            <!-- <a class="learnMore tooltip" href="#">
-              <span class="tooltipText">Read more</span>
-              <img src="assets/icons/more-icon.svg" alt="Read more icon" />
-            </a> -->
-            <a class="page tooltip" href="#" target="_blank">
+            <a class="page tooltip" href="#" target="_blank" rel="noopener noreferrer">
               <span class="tooltipText">See the website</span>
               <img src="assets/icons/link-icon.svg" alt="Arrow icon" />
             </a>
-            <a class="repository tooltip" href="#" target="_blank">
+            <a class="repository tooltip" href="#" target="_blank" rel="noopener noreferrer">
               <span class="tooltipText">Check the repository</span>
               <img src="assets/icons/github-icon.svg" alt="GitHub icon" />
             </a>
-            <!-- <a class="watchVideo tooltip" href="#">
-              <span class="tooltipText">Watch video</span>
-              <img src="assets/icons/video-icon.svg" alt="Video icon" />
-            </a> -->
           </div>
         </div>
       </article>

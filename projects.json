@@ -1,6 +1,6 @@
 [
   {
-    "projectname": "Hacked Hogwarts student list",
+    "projectname": "Hogwarts student list",
     "tools": ["HTML", "CSS", "JavaScript", "REST API", "Animations"],
     "description": [
       "The website displays a list of students where you can search, sort, filter, expel students, add them to the inquisitorial squad, or appoint a prefect. ",
@@ -8,7 +8,6 @@
     ],
     "repository": "https://github.com/Di-Pri/Hacked-Hogwarts-Student-List",
     "page": "https://di-pri.github.io/Hacked-Hogwarts-Student-List/",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/hogwarts.jpg"
   },
   {
@@ -20,7 +19,6 @@
     ],
     "repository": "https://github.com/Di-Pri/silfen_website",
     "page": "https://di-pri.github.io/silfen_website/index.html",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/silfen.jpg"
   },
   {
@@ -28,11 +26,10 @@
     "tools": ["HTML", "SASS", "JavaScript-modules", "REST API", "Restdb"],
     "description": [
       "A sign-up form on the Ezone platform, an app that helps gamers improve their performance through advice and guidance related to training and lifestyle.",
-      "After answering questions in the form, users will receive content tailored to their personal needs."
+      "Users answer questions in the form, data is sent to a database, and in the future, users should receive content tailored to their personal needs."
     ],
     "repository": "https://github.com/Di-Pri/Ezone-form",
     "page": "http://dianapriediena.com/ezone/dist/index.html",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/ezone1.jpg"
   },
   {
@@ -44,7 +41,6 @@
     ],
     "repository": "https://github.com/Di-Pri/Sofa-configurator-project",
     "page": "https://di-pri.github.io/Sofa-configurator-project/",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/configurator.jpg"
   },
   {
@@ -56,7 +52,6 @@
     ],
     "repository": "https://github.com/Di-Pri/ullo_website",
     "page": "https://di-pri.github.io/ullo_website/",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/ullo.jpg"
   },
   {
@@ -68,7 +63,6 @@
     ],
     "repository": "https://github.com/Di-Pri/The-Running-Dead",
     "page": "https://di-pri.github.io/The-Running-Dead/",
-    "learnmore": "https://github.com/Di-Pri",
     "image": "assets/images/running-dead.jpg"
   }
 ]
