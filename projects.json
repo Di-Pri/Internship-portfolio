@@ -1,9 +1,20 @@
 [
   {
+    "projectname": "Order app for a bar",
+    "tools": ["Sass", "React", "REST API"],
+    "description": [
+      "The ordering form for a bar is a product of group work. Here I would like to demonstrate the landing page and the page with the products I have built.",
+      "The idea was to create an eye-catching app for tablets and mobile phones with fewer steps in the purchasing flow. You can choose the type and quantity of products, read the description and order the drinks using your preferred payment method."
+    ],
+    "repository": "https://github.com/Di-Pri/ordering-form-foobar",
+    "page": "https://happy-dijkstra-148f8f.netlify.app/",
+    "image": "assets/images/foobar.jpg"
+  },
+  {
     "projectname": "Hogwarts student list",
     "tools": ["HTML", "CSS", "JavaScript", "REST API", "Animations"],
     "description": [
-      "The website displays a list of students where you can search, sort, filter, expel students, add them to the inquisitorial squad, or appoint a prefect. ",
+      "The app displays a list of students where you can search, sort, filter, expel students, add them to the inquisitorial squad, or appoint a prefect. ",
       "By clicking the “Hack the system” logo in the upper right corner of the page, you mess students’ blood status, enroll yourself in Hogwarts, and remove all students from the squad, if any."
     ],
     "repository": "https://github.com/Di-Pri/Hacked-Hogwarts-Student-List",
@@ -14,7 +25,7 @@
     "projectname": "Silfen webshop",
     "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
-      "The e-commerce website for the Silfen start-up is a product of a group work. The main focus was on redesigning the company’s existing website to make it more accessible and easier to navigate.",
+      "The e-commerce app for the Silfen start-up is a product of group work. The main focus was on redesigning the company’s existing website to make it more accessible and easier to navigate.",
       "I was responsible for building the landing, collections, and sustainability pages, that had to meet the client's wishes to be colorful and playful."
     ],
     "repository": "https://github.com/Di-Pri/silfen_website",
@@ -23,20 +34,20 @@
   },
   {
     "projectname": "Ezone sign-up form",
-    "tools": ["HTML", "SASS", "JavaScript-modules", "REST API", "Restdb"],
+    "tools": ["HTML", "Sass", "JavaScript-modules", "REST API", "Restdb"],
     "description": [
-      "A sign-up form on the Ezone platform, an app that helps gamers improve their performance through advice and guidance related to training and lifestyle.",
-      "Users answer questions in the form, data is sent to a database, and in the future, users should receive content tailored to their personal needs."
+      "The sign-up form was designed and built for an existing Ezone website. The landing page was created to demonstrate the form.",
+      "There are eight steps you must complete before you can submit your answers. After submission, you will receive a personal confirmation message. You can start the process by clicking on the “Get in the zone” button on the landing page."
     ],
     "repository": "https://github.com/Di-Pri/Ezone-form",
     "page": "http://dianapriediena.com/ezone/dist/index.html",
-    "image": "assets/images/ezone1.jpg"
+    "image": "assets/images/ezone.jpg"
   },
   {
     "projectname": "Product configurator",
     "tools": ["HTML", "CSS", "JavaScript", "SVG", "Animations"],
     "description": [
-      "In this product configurator, you can design your own sofa by choosing your preferred colors for the sofa body, cushions and legs.",
+      "In this product configurator, you can design your own sofa by choosing preferred colors for the sofa body, cushions and legs.",
       "In addition, you can add extra features to the product, such as large cushions, glasses and... a cat."
     ],
     "repository": "https://github.com/Di-Pri/Sofa-configurator-project",
@@ -47,8 +58,8 @@
     "projectname": "Ullo webshop",
     "tools": ["HTML", "CSS", "JavaScript", "REST API"],
     "description": [
-      "The e-commerce website for the Ullo start-up is a product of a group work. The main focus was to create a digital identity that could reach a younger audience. ",
-      "Here I would like to showcase the landing page that I built. Motion graphics and video editing were done in Adobe Premiere Pro."
+      "The e-commerce app for the Ullo start-up is a product of group work. The main focus was to create a digital identity that could reach a younger audience. ",
+      "Here I would like to showcase the landing page that I have built. Motion graphics and video editing were done in Adobe Premiere Pro."
     ],
     "repository": "https://github.com/Di-Pri/ullo_website",
     "page": "https://di-pri.github.io/ullo_website/",
@@ -58,7 +69,7 @@
     "projectname": "Running Dead",
     "tools": ["HTML", "CSS", "JavaScript", "Animations"],
     "description": [
-      "An animated clicker game with good objects that give you points and bad objects that take your lives.",
+      "The animated clicker game with good objects that give you points and bad objects that take your lives. This was the first project that I built using JavaScript.",
       "The idea is to collect a certain amount of points before the time runs out and have at least one life left at the end of the game."
     ],
     "repository": "https://github.com/Di-Pri/The-Running-Dead",
